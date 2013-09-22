@@ -7,7 +7,7 @@ var signinPath = url + '/api/signin/';
 var authPath = url + '/api/authenticate/';
 
 var email = 'you@example.com';
-var password = 'password;';
+var password = 'password';
 
 var auth = function() {
 	request.post(authPath, {form: {
